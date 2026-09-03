@@ -1,1 +1,26 @@
-<img width="856" height="603" alt="image" src="https://github.com/user-attachments/assets/89965dae-dc98-4e88-8bcb-9141e4cf243a" />
+Install pi installer (ovde daj korake za linux i za windows)
+daj korake, naglai da izaberu rasppbery pi OS (Legacy, 64-bit) lite umesto rasppbery pi OS lite (64-bit) jer ce im prvi praviti probleme
+
+<img width="860" height="605" alt="image" src="https://github.com/user-attachments/assets/2668bdba-9b00-4761-96e4-fda76c83f5d1" />
+
+ssh na ssh cloudadmin@pi-cloud.local
+
+Step 2 — Update Raspberry Pi
+sudo apt update
+
+Osvežava listu dostupnih paketa.
+
+sudo apt upgrade -y
+
+Step 3 — Install Tailscale
+curl -fsSL https://tailscale.com/install.sh | sh
+
+Instalira Tailscale na Raspberry Pi.
+
+Zatim:
+
+sudo tailscale up
+
+Pokreće Tailscale i prikazuje URL za autentifikaciju.
+
+Otvori prikazani URL na laptopu i prijavi Pi na svoj Tailscale nalog.
