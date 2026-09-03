@@ -24,3 +24,27 @@ sudo tailscale up
 Pokreće Tailscale i prikazuje URL za autentifikaciju.
 
 Otvori prikazani URL na laptopu i prijavi Pi na svoj Tailscale nalog.
+
+Step 4 — Verify Tailscale
+ping <TAILSCALE_IP_PI-ja>
+
+Zatim:
+
+ssh strnga@<TAILSCALE_IP_PI-ja>
+
+Na primer:
+
+ssh strnga@100.80.20.15
+
+Ako uđeš, ovaj deo projekta je završen:
+
+Laptop
+   │
+   │ Tailscale
+   ▼
+pi-cloud
+   │
+   └── SSH
+
+Kad potvrdiš da ovo radi, idemo direktno na SFTPGo i /srv/cloud storage direktorijum.
+
