@@ -102,8 +102,6 @@ Enable SSH: Yes
 Authentication: Password authentication
 ```
 
-<img width="1561" height="777" alt="Raspberry Pi Imager OS Customisation" src="https://github.com/user-attachments/assets/ac746128-4f74-4d3b-9326-6227f6b0d330" />
-
 Write the image to the microSD card.
 
 Insert the card into the Raspberry Pi and power it on.
@@ -305,6 +303,8 @@ Storage: Local disk
 Root directory: /srv/cloud
 ```
 
+<img width="1561" height="777" alt="Raspberry Pi Imager OS Customisation" src="https://github.com/user-attachments/assets/ac746128-4f74-4d3b-9326-6227f6b0d330" />
+
 <img width="1561" height="777" alt="SFTPGo root directory configuration" src="https://github.com/user-attachments/assets/9dbbecfd-391a-4962-b521-0c4dd3bc9400" />
 
 Under **ACLs**, set:
@@ -364,8 +364,6 @@ Check the Serve configuration:
 ```bash
 tailscale serve status
 ```
-
-<img width="525" height="60" alt="Tailscale Serve status" src="https://github.com/user-attachments/assets/0cb4f403-86f1-4308-befa-bf5c0f91eb14" />
 
 Open the SFTPGo WebClient through HTTPS:
 
