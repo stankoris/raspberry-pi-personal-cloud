@@ -296,14 +296,14 @@ Username: cloud
 Password: <strong-password>
 ```
 
+<img width="1561" height="777" alt="Raspberry Pi Imager OS Customisation" src="https://github.com/user-attachments/assets/ac746128-4f74-4d3b-9326-6227f6b0d330" />
+
 Set:
 
 ```text
 Storage: Local disk
 Root directory: /srv/cloud
 ```
-
-<img width="1561" height="777" alt="Raspberry Pi Imager OS Customisation" src="https://github.com/user-attachments/assets/ac746128-4f74-4d3b-9326-6227f6b0d330" />
 
 <img width="1561" height="777" alt="SFTPGo root directory configuration" src="https://github.com/user-attachments/assets/9dbbecfd-391a-4962-b521-0c4dd3bc9400" />
 
