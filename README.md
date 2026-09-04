@@ -5,7 +5,6 @@ A simple private cloud built on a Raspberry Pi.
 The setup uses:
 
 - Raspberry Pi OS Lite
-- SSH
 - Tailscale
 - SFTPGo
 - Tailscale Serve
@@ -25,7 +24,7 @@ Raspberry Pi
 Tailscale Serve
       |
       v
-SFTPGo :8080
+SFTPGo
       |
       v
 /srv/cloud
@@ -72,7 +71,7 @@ Select:
 
 ```text
 Device:
-Raspberry Pi 3
+Raspberry Pi 3 (in my case)
 ```
 
 For the operating system select:
