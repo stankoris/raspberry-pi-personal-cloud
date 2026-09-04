@@ -296,6 +296,8 @@ Users
 -> Add
 ```
 
+<img width="1518" height="295" alt="image" src="https://github.com/user-attachments/assets/d767bbb4-eba8-45d5-bddb-43b7eb84aeca" />
+
 Create a user:
 
 ```text
@@ -319,6 +321,8 @@ Under **ACLs**, set:
 ```text
 Permissions: *
 ```
+
+<img width="1387" height="582" alt="image" src="https://github.com/user-attachments/assets/d6a4bd41-13fe-45fc-89e2-050f3486bd22" />
 
 Leave **Per-directory permissions** empty.
 
@@ -431,17 +435,3 @@ SFTPGo
 ```
 
 The Raspberry Pi now provides private file upload and download from any device connected to the same Tailscale network.
-
-# What I Should Know
-
-After completing this project, I should be able to:
-
-- Install and configure Raspberry Pi OS for headless administration.
-- Connect to the Raspberry Pi using SSH.
-- Add a Linux device to a Tailscale network.
-- Access the Raspberry Pi remotely using its Tailscale IP.
-- Run SFTPGo as a systemd service.
-- Use `/srv/cloud` as the storage directory for SFTPGo.
-- Configure an SFTPGo user and filesystem permissions.
-- Use Tailscale Serve to expose the SFTPGo WebClient privately over HTTPS.
-- Verify that the complete setup survives a Raspberry Pi reboot.
