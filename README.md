@@ -90,6 +90,8 @@ Select the microSD card as the storage device.
 
 In **OS Customisation**, configure:
 
+<img width="681" height="230" alt="image" src="https://github.com/user-attachments/assets/8038e36a-de01-4943-a40d-90b87545be9c" />
+
 ```text
 Hostname: pi-cloud
 Username: cloudadmin
@@ -97,10 +99,16 @@ Password: <strong-password>
 Wi-Fi SSID: <your-wifi-name>
 Wi-Fi password: <your-wifi-password>
 Wireless LAN country: <your-country>
+```
 
+<img width="676" height="822" alt="image" src="https://github.com/user-attachments/assets/c4aaa3be-1736-42b9-9652-886810442e65" />
+
+```text
 Enable SSH: Yes
 Authentication: Password authentication
 ```
+
+<img width="675" height="811" alt="image" src="https://github.com/user-attachments/assets/6a4853b7-06db-487f-b180-ef9e167f1499" />
 
 Write the image to the microSD card.
 
