@@ -101,7 +101,7 @@ Wi-Fi password: <your-wifi-password>
 Wireless LAN country: <your-country>
 ```
 
-<img width="676" height="822" alt="image" src="https://github.com/user-attachments/assets/c4aaa3be-1736-42b9-9652-886810442e65" />
+<img width="671" height="835" alt="image" src="https://github.com/user-attachments/assets/199b7422-077c-4f79-b373-24c02e01376b" />
 
 ```text
 Enable SSH: Yes
